@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>FAHUMUINRAFA</title>
+<meta name="description" content="Portal mobile Fakultas Adab dan Humaniora UIN Raden Fatah Palembang — profil, program studi, berita, dan kontak." />
+<link rel="manifest" href="manifest.json" />
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" href="assets/icons/icon-192.png" />
+</head>
+<body class="app-shell">
+  <!-- Splash (first paint) -->
+  <div id="splash" class="splash">
+    <img class="splash-logo" src="https://adab.radenfatah.ac.id/main/wp-content/uploads/2025/10/693e0f7c9d82cbf1035cbb7ab345512a-1.png" alt="FAHUM logo">
+  </div>
+
+  <header class="app-header" role="banner">
+    <div class="brand">
+      <img src="https://adab.radenfatah.ac.id/main/wp-content/uploads/2025/10/693e0f7c9d82cbf1035cbb7ab345512a-1.png" alt="logo" class="logo">
+      <div class="brand-text">
+        <div class="title">FAHUMUINRAFA</div>
+        <div class="sub">Fakultas Adab dan Humaniora</div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="app-main" role="main">
+    <section id="home" class="screen active" aria-labelledby="home-title">
+      <div class="hero-card">
+        <img class="hero-img" src="https://adab.radenfatah.ac.id/main/wp-content/uploads/2025/11/Desain-tanpa-judul-16.png" alt="FAHUM hero image">
+        <h1 id="home-title">Selamat Datang</h1>
+        <p class="lead">Portal resmi Fakultas Adab dan Humaniora — informasi akademik, program studi, dan pengumuman.</p>
+        <div class="actions">
+          <a class="btn primary" href="https://adab.radenfatah.ac.id/main/" target="_blank" rel="noopener">Kunjungi Website</a>
+          <button class="btn outline" data-nav="profile">Profil & Visi</button>
+        </div>
+      </div>
+
+      <div class="section cards">
+        <article class="card">
+          <h3>Program Unggulan</h3>
+          <ul class="list">
+            <li>S1 Bahasa &amp; Sastra Arab</li>
+            <li>S1 Ilmu Perpustakaan</li>
+            <li>S1 Politik Islam</li>
+            <li>S1 Sejarah Peradaban Islam</li>
+            <li>Magister: Sejarah Peradaban Islam</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Informasi</h3>
+          <p class="muted">Penerimaan mahasiswa baru, seminar, dan pengumuman penting tersedia di laman resmi.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="profile" class="screen" hidden aria-labelledby="profile-title">
+      <div class="card">
+        <h2 id="profile-title">Profil &amp; Visi</h2>
+        <p>Menjadi pusat kajian Adab dan Humaniora berbasis budaya Melayu Islam yang berstandar internasional dan berkarakter Islami.</p>
+        <img class="card-img" src="https://adab.radenfatah.ac.id/main/wp-content/uploads/2025/11/Desain-tanpa-judul-16.png" alt="Visi">
+        <a class="btn primary" href="https://adab.radenfatah.ac.id/main/visi-dan-misi/" target="_blank" rel="noopener">Lihat Visi &amp; Misi</a>
+      </div>
+    </section>
+
+    <section id="programs" class="screen" hidden aria-labelledby="programs-title">
+      <div class="card">
+        <h2 id="programs-title">Program Studi</h2>
+        <ul class="program-list">
+          <li><strong>S1</strong> Bahasa &amp; Sastra Arab</li>
+          <li><strong>S1</strong> Ilmu Perpustakaan</li>
+          <li><strong>S1</strong> Politik Islam</li>
+          <li><strong>S1</strong> Sejarah Peradaban Islam</li>
+          <li><strong>S2</strong> Magister Sejarah Peradaban Islam</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="news" class="screen" hidden aria-labelledby="news-title">
+      <div class="card">
+        <h2 id="news-title">Berita & Pengumuman</h2>
+        <div class="news-list">
+          <article class="news-item">
+            <h3>Penerimaan Mahasiswa Baru 2026</h3>
+            <time datetime="2025-11-01">01 Nov 2025</time>
+            <p>PMB dibuka. Informasi lengkap ada di laman PMB UIN Raden Fatah.</p>
+          </article>
+          <article class="news-item">
+            <h3>Seminar Kajian Melayu</h3>
+            <time datetime="2025-10-12">12 Okt 2025</time>
+            <p>Seminar nasional menggali tradisi Melayu dan modernitas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="screen" hidden aria-labelledby="contact-title">
+      <div class="card">
+        <h2 id="contact-title">Kontak</h2>
+        <p>📍 Jl. Prof. K. H. Zainal Abidin Fikri KM.3,5 — Palembang</p>
+        <p>📞 (0711) 354668</p>
+        <p>✉️ <a href="mailto:humas.adab_uin@radenfatah.ac.id">humas.adab_uin@radenfatah.ac.id</a></p>
+      </div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" role="navigation" aria-label="Navigasi bawah"> aria-label="Navigasi utama">
+    <button class="nav-btn active" data-target="home" aria-label="Beranda">🏠<span>Beranda</span></button>
+    <button class="nav-btn" data-target="profile" aria-label="Profil">🎓<span>Profil</span></button>
+    <button class="nav-btn" data-target="programs" aria-label="Program">📚<span>Program</span></button>
+    <button class="nav-btn" data-target="news" aria-label="Berita">📰<span>Berita</span></button>
+    <button class="nav-btn" data-target="contact" aria-label="Kontak">☎️<span>Kontak</span></button>
+  </nav>
+
+<script src="app.js"></script>
+<script>
+// register service worker if available
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('service-worker.js').catch(()=>{});
+}
+</script>
+</body>
+</html>
