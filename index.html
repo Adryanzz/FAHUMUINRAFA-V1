@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FAHUM Mobile v2</title><link rel="stylesheet" href="style.css">  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1e73e8">
+  <link rel="preload" href="assets/icons/ic_home.svg" as="image">
+  <script defer src="script.js"></script>
+  <link rel="preload" href="style.css" as="style">
+</head><body>
+<div class="app">
+<div id="splash" class="splash"><div class="splash-inner"><img src="assets/icons/ic_home.svg" alt="FAHUM logo"><div class="splash-title">FAHUM</div></div></div>
+
+  <header class="app-header"><div class="logo">FAHUM</div></header>
+
+  <main id="home" class="screen">
+    <!-- carousel -->
+    <section class="hero card">
+      <div class="carousel" id="carousel">
+        <div class="slide"><img src="assets/banners/b1.svg" alt=""></div>
+        <div class="slide"><img src="assets/banners/b2.svg" alt=""></div>
+        <div class="slide"><img src="assets/banners/b3.svg" alt=""></div>
+        <div class="dots" id="dots"></div>
+      </div>
+    </section>
+
+    <!-- menu grid 8 cards -->
+    <section class="card menu-grid">
+      <div class="grid">
+        <div class="menu-item" role="button" tabindex="0" aria-pressed="false" data-href="https://adab.radenfatah.ac.id/main/"><img src="assets/icons/ic_web.svg"><div>Website</div></div>
+        <div class="menu-item" role="button" tabindex="0" aria-pressed="false" data-href="pages/prodi/bsa.html"><img src="assets/icons/ic_prodi.svg"><div>Prodi</div></div>
+        <div class="menu-item" role="button" tabindex="0" aria-pressed="false" data-href="#"><img src="assets/icons/ic_simak.svg"><div>Simak</div></div>
+        <div class="menu-item" role="button" tabindex="0" aria-pressed="false" data-href="#"><img src="assets/icons/ic_elearn.svg"><div>E-Learning</div></div>
+        <div class="menu-item" role="button" tabindex="0" aria-pressed="false" data-href="#"><img src="assets/icons/ic_rf.svg"><div>RF Mobile</div></div>
+        <div class="menu-item" role="button" tabindex="0" aria-pressed="false" data-href="#"><img src="assets/icons/ic_elapor.svg"><div>E-Lapor FAHUM</div></div>
+        <div class="menu-item" role="button" tabindex="0" aria-pressed="false" data-href="#"><img src="assets/icons/ic_more.svg"><div>Berita</div></div>
+        <div class="menu-item" role="button" tabindex="0" aria-pressed="false" data-href="#"><img src="assets/icons/ic_more.svg"><div>Lihat Semua</div></div>
+      </div>
+    </section>
+
+    <!-- talent class horizontal cards (6 cards as requested -> show 6) -->
+    <section class="card">
+      <h3>Talent Development</h3>
+      <div class="horizontal-scroll" id="tdc-list"></div>
+    </section>
+
+    <!-- berita -->
+    <section class="card" id="berita-list"><h3>Berita & Pengumuman</h3></section>
+  </main>
+
+  <!-- podcast screen -->
+  <main id="podcast" class="screen hidden">
+    <section class="card"><h3>Podcast & Streaming</h3><div class="pod-list" id="pod-list"></div></section>
+    <!-- video modal -->
+    <div id="media-modal" class="modal hidden"><div class="modal-inner"><button id="close-modal" aria-label="Tutup">✕</button><div class="media-container"></div><video id="media-player" controls src="" style="display:none"></video></div></div>
+  </main>
+
+  <!-- profile screen -->
+  <main id="profile" class="screen hidden">
+    <section class="card"><h3>Profil & Aturan Aplikasi</h3>
+      <p>Aplikasi FAHUMINRAFA memberikan akses informasi resmi Fakultas Adab dan Humaniora.</p>
+      <h4>Aturan Penggunaan</h4>
+      <ol><li>Gunakan aplikasi untuk tujuan akademik dan informasi.</li><li>Jaga etika komunikasi dan privasi data.</li><li>Laporkan konten yang tidak sesuai melalui E-Lapor.</li></ol>
+      <h4>Fungsi Aplikasi</h4>
+      <ul><li>Akses berita & pengumuman</li><li>Memutar podcast & rekaman</li><li>Informasi prodi & kontak</li></ul>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" role="navigation">
+    <button class="nav-btn active" data-target="home"><img class="icon" src="assets/icons/ic_home.svg"><span>Home</span></button>
+    <button class="nav-btn" data-target="podcast"><img class="icon" src="assets/icons/ic_podcast.svg"><span>Podcast</span></button>
+    <button class="nav-btn" data-target="profile"><img class="icon" src="assets/icons/ic_profile.svg"><span>Profile</span></button>
+  </nav>
+</div>
+
+</body></html>

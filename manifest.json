@@ -1,0 +1,21 @@
+{
+  "name": "FAHUM Mobile",
+  "short_name": "FAHUM",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e73e8",
+  "icons": [
+    {
+      "src": "assets/icons/ic_home.svg",
+      "sizes": "120x120",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "assets/icons/ic_profile.svg",
+      "sizes": "120x120",
+      "type": "image/svg+xml"
+    }
+  ],
+  "description": "Aplikasi mobile FAHUM - prototipe resmi."
+}

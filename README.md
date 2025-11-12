@@ -1,1 +1,1 @@
-# FAHUMUINRAFA-V1
+FAHUM_APP_v2 - static mobile-first prototype with 3 tabs (Home, Podcast, Profile). Open index.html to run.
