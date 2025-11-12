@@ -1,0 +1,27 @@
+[
+  {
+    "kode": "S1-BSA",
+    "name": "Bahasa dan Sastra Arab",
+    "desc": "Program studi Bahasa dan Sastra Arab."
+  },
+  {
+    "kode": "S1-ILP",
+    "name": "Ilmu Perpustakaan",
+    "desc": "Program studi Ilmu Perpustakaan."
+  },
+  {
+    "kode": "S1-PI",
+    "name": "Politik Islam",
+    "desc": "Program studi Politik Islam."
+  },
+  {
+    "kode": "S1-SKI",
+    "name": "Sejarah dan Peradaban Islam",
+    "desc": "Program studi Sejarah dan Peradaban Islam."
+  },
+  {
+    "kode": "S2-MSPI",
+    "name": "Magister Sejarah dan Peradaban Islam",
+    "desc": "Program magister Sejarah dan Peradaban Islam."
+  }
+]

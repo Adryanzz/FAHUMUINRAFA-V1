@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Kuliah Tamu: Sejarah Peradaban",
+    "thumb": "assets/podcasts/p1.svg",
+    "src": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+  },
+  {
+    "id": 2,
+    "title": "Webinar Kajian Melayu",
+    "thumb": "assets/podcasts/p2.svg",
+    "src": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+  }
+]
